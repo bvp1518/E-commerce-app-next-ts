@@ -17,7 +17,6 @@ import Purse13 from './purse13.png'
 import Purse14 from './purse14.png'
 import Purse15 from './purse15.png'
 import Purse16 from './purse16.png'
-import Showimage1 from './showimage1.avif'
 import Showimage2 from './showimage2.jpeg'
 import Showimage3 from './showimage3.jpeg'
 
@@ -43,7 +42,6 @@ Purse13,
 Purse14,
 Purse15,
 Purse16,
-Showimage1,
 Showimage2,
 Showimage3
 };

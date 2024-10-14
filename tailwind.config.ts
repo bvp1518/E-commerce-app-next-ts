@@ -12,8 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width: {
+        '70': '17.5rem',  // Custom width for 70 (17.5rem)
+      },
     },
   },
   plugins: [],
 };
 export default config;
+
+
