@@ -25,7 +25,7 @@ const SlideShow: React.FC = () => {
   };
 
   return (
-    <div className="relative mx-16 my-16  flex justify-center w-100 h-1/5 overflow-hidden border border-red-500">
+    <div className="relative mx-16 my-16  flex justify-center w-100 h-1/5 overflow-hidden border border-gray-300">
   <Image
     src={SlideImages[currentIndex]}
     alt={`Slide ${currentIndex}`}
