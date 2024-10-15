@@ -1,0 +1,29 @@
+/* NewCollection.module.css */
+.collectionContainer {
+    @apply bg-stone-100 flex border border-gray-500 h-80 w-full;
+  }
+  
+  .collectionContent {
+    @apply flex-1 p-5;
+  }
+  
+  .collectionTitle {
+    @apply text-5xl mb-5 text-blue-800;
+  }
+  
+  .collectionDescription {
+    @apply font-bold mb-5;
+  }
+  
+  .collectionButton {
+    @apply bg-green-800 font-bold text-white py-2 px-4;
+  }
+  
+  .collectionImageContainer {
+    @apply flex-1 flex items-center justify-center;
+  }
+  
+  .collectionImage {
+    @apply h-full w-auto object-cover transition-transform duration-2000 ease-in-out;
+  }
+  

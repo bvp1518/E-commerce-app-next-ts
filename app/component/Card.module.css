@@ -1,0 +1,17 @@
+/* Card.module.css */
+.cardContainer {
+    @apply grid grid-cols-4 gap-4 my-16 mx-16;
+  }
+  
+  .cardItem {
+    @apply flex flex-col items-center bg-stone-100 p-4 rounded shadow;
+  }
+  
+  .cardImage {
+    @apply h-[150px] w-auto object-cover transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer;
+  }
+  
+  .cardTitle {
+    @apply text-center mt-2;
+  }
+  

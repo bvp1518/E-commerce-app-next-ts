@@ -1,0 +1,36 @@
+/* Nav.module.css */
+.navContainer {
+  @apply sticky top-0 z-50 bg-gray-800 p-4 w-full; /* Use w-full instead of w-dvw */
+}
+
+.navContent {
+  @apply container mx-auto flex justify-between items-center;
+}
+
+.logoContainer {
+  @apply flex items-start;
+}
+
+.logoImage {
+  @apply h-11 w-auto mr-2;
+}
+
+.logoText {
+  @apply text-white font-bold text-3xl;
+}
+
+.navList {
+  @apply flex space-x-6 text-white;
+}
+
+.navItem {
+  @apply hover:text-gray-300 cursor-pointer;
+}
+
+.cartContainer {
+  @apply flex space-x-6 items-center;
+}
+
+.cartIcon {
+  @apply text-white text-2xl;
+}
