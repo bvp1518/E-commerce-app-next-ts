@@ -1,15 +1,18 @@
 import React from 'react';
 import Nav from '../component/Nav';
+import Footer from '../component/Footer'
+import styles from './page.module.css';
 
-const page = () => {
+const CosmeticBags: React.FC = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <Nav />
-      <div className="flex justify-center my-16">
-        <h1 className='text-4xl justify-center text-blue-900 bold '>COSMETIC-BAGS</h1>
+      <div className={styles.titleContainer}>
+        <h1 className={styles.title}>COSMETIC BAGS</h1>
       </div>
+      <Footer />
     </div>
   );
-}
+};
 
-export default page;
+export default CosmeticBags;

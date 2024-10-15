@@ -1,16 +1,20 @@
 import React from 'react';
 import Nav from '../component/Nav';
+import styles from './page.module.css';
+import Footer from '../component/Footer';
 
-const page = () => {
+const AboutUs: React.FC = () => {
     return (
-        <div>
+        <>
+        <div className={styles.container}>
             <Nav />
-            <div className="flex justify-center my-16">
-                <h1 className='text-4xl justify-center text-blue-900 bold '>ABOUT-US</h1>
+            <div className={styles.titleContainer}>
+                <h1 className={styles.title}>ABOUT US</h1>
             </div>
+            <Footer />
         </div>
+            </>
     );
 }
 
-export default page;
-
+export default AboutUs;

@@ -1,0 +1,13 @@
+/* Container styles for the page */
+.pageContainer {
+    @apply flex flex-col min-h-screen; 
+  }
+  
+  .titleContainer {
+    @apply flex justify-center items-center flex-grow; 
+  }
+  
+  .title {
+    @apply text-4xl text-blue-900 font-bold;
+  }
+  
