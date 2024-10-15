@@ -1,6 +1,31 @@
-/* Nav.module.css */
+
+.navContent {
+  @apply container mx-auto flex justify-between items-center;
+}
+.logoContainer {
+  @apply flex items-start;
+}
+.logoImage {
+  @apply h-11 w-auto mr-2;
+}
+.logoText {
+  @apply text-white hidden md:flex font-bold text-3xl;
+}
+.navList {
+  @apply flex space-x-6 text-white;
+}
+.navItem {
+  @apply hover:text-gray-300 cursor-pointer;
+}
+.cartContainer {
+  @apply flex space-x-6 items-center;
+}
+.cartIcon {
+  @apply text-white text-2xl;
+} 
+
 .navContainer {
-  @apply sticky top-0 z-50 bg-gray-800 p-4 w-full; /* Use w-full instead of w-dvw */
+  @apply sticky top-0 z-50 bg-gray-800 p-4 w-full;
 }
 
 .navContent {
@@ -20,7 +45,7 @@
 }
 
 .navList {
-  @apply flex space-x-6 text-white;
+  @apply flex space-x-6 text-white hidden md:flex; 
 }
 
 .navItem {
@@ -33,4 +58,24 @@
 
 .cartIcon {
   @apply text-white text-2xl;
+}
+
+.hamburger {
+  @apply flex flex-col cursor-pointer md:hidden; 
+}
+
+.bar {
+  @apply h-1 w-6 bg-white mb-1 transition-all duration-300 ease-in-out;
+}
+
+.barOpen {
+  @apply h-1 w-6 bg-gray-500 mb-1 transition-all duration-300 ease-in-out;
+}
+
+.navList.active {
+  @apply flex flex-col bg-gray-800 absolute top-full left-0 w-full p-4 md:hidden; 
+}
+
+.navList.active .navItem {
+  @apply py-2; 
 }
