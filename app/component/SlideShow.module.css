@@ -1,19 +1,20 @@
+
 .slideshow {
-  @apply relative mx-16 my-16 flex justify-center max-w-[1200px] h-1/5 overflow-hidden border border-gray-300;
+  @apply relative mx-4 sm:mx-8 md:mx-16 my-8 sm:my-12 flex justify-center items-center max-w-full md:max-w-[1200px] h-auto sm:h-[300px] overflow-hidden border border-gray-300;
 }
 
 .slideshowImage {
-  @apply object-fill w-2/5 h-1/5;
+  @apply object-cover w-full sm:w-3/5 h-auto;
 }
 
 .slideshowButton {
-  @apply absolute top-1/2 transform -translate-y-1/2 px-4 py-2 bg-black text-white z-30;
+  @apply absolute top-1/2 transform -translate-y-1/2 px-2 sm:px-4 py-2 bg-black bg-opacity-50 text-white rounded-full z-30 hover:bg-opacity-70 transition;
 }
 
 .slideshowButtonLeft {
-  @apply left-0;
+  @apply left-2 sm:left-4;
 }
 
 .slideshowButtonRight {
-  @apply right-0;
+  @apply right-2 sm:right-4;
 }

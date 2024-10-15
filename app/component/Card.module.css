@@ -1,17 +1,17 @@
-/* Card.module.css */
+
 .cardContainer {
-    @apply grid grid-cols-4 gap-4 my-16 mx-16;
-  }
+  @apply grid grid-cols-2 gap-4 my-16 mx-16 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5;
+}
+
+.cardItem {
+  @apply flex flex-col items-center bg-stone-100 p-4 rounded shadow hover:shadow-lg transition-shadow;
+}
+
+.cardImage {
+  @apply h-[100px] sm:h-[125px] md:h-[130px] w-auto object-cover transition-transform duration-300 ease-in-out hover:scale-105 cursor-pointer;
+}
+
+.cardTitle {
+  @apply text-center mt-2 text-sm md:text-base;
   
-  .cardItem {
-    @apply flex flex-col items-center bg-stone-100 p-4 rounded shadow;
-  }
-  
-  .cardImage {
-    @apply h-[150px] w-auto object-cover transition-transform duration-200 ease-in-out hover:scale-105 cursor-pointer;
-  }
-  
-  .cardTitle {
-    @apply text-center mt-2;
-  }
-  
+}
