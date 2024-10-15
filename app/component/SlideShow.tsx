@@ -9,6 +9,7 @@ import styles from './SlideShow.module.css'
 
 const SlideShow: React.FC = () => {
   const SlideImages: StaticImageData[] = [Showimage2, Showimage3];
+  
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   const goToNextSlide = () => {

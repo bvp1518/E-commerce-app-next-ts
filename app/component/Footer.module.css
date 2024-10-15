@@ -1,0 +1,11 @@
+.footer{
+  @apply bg-gray-500 text-white py-4
+}
+
+.footerContainer {
+    @apply container mx-auto text-center;
+  }
+  
+.content {
+  @apply text-sm items-center p-1
+}

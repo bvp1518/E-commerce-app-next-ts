@@ -1,7 +1,8 @@
-import styles from './Card.module.css';
-import { Purse1, Purse2, Purse3, Purse4, Purse5, Purse6, Purse7, Purse8, Purse9, Purse10, Purse11, Purse12, Purse13, Purse14, Purse15, Purse16 } from '@/public/images';
-import Image, { StaticImageData } from 'next/image';
 import React from 'react';
+import styles from './Card.module.css';
+import Image, { StaticImageData } from 'next/image';
+import { Purse1, Purse2, Purse3, Purse4, Purse5, Purse6, Purse7, Purse8, Purse9, Purse10,
+         Purse11, Purse12, Purse13, Purse14, Purse15, Purse16 } from '@/public/images';
 
 function Card() {
   const purseData: StaticImageData[] = [

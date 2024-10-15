@@ -10,6 +10,7 @@ import styles from './NewCollection.module.css';
 
 const NewCollection: React.FC = () => {
   const images: StaticImageData[] = [handmade1, handmade2, handmade3];
+
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   useEffect(() => {
@@ -26,7 +27,9 @@ const NewCollection: React.FC = () => {
         <div className={styles.collectionContent}>
           <h2 className={styles.collectionTitle}>New Collection</h2>
           <p className={styles.collectionDescription}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dolore deleniti a ex recusandae nulla numquam, explicabo laboriosam sit mollitia nobis, consectetur vitae corrupti optio amet, modi hic magni dignissimos.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dolore deleniti a ex 
+            recusandae nulla numquam, explicabo laboriosam sit mollitia nobis, consectetur vitae
+            corrupti optio amet, modi hic magni dignissimos.
           </p>
           <button className={styles.collectionButton}>
             <Link href="/new">New Collection</Link>
