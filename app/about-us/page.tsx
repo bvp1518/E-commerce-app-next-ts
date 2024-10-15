@@ -5,7 +5,6 @@ import Footer from '../component/Footer';
 
 const AboutUs: React.FC = () => {
     return (
-        <>
         <div className={styles.container}>
             <Nav />
             <div className={styles.titleContainer}>
@@ -13,7 +12,6 @@ const AboutUs: React.FC = () => {
             </div>
             <Footer />
         </div>
-            </>
     );
 }
 

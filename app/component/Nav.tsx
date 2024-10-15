@@ -49,7 +49,6 @@ const Nav: React.FC = () => {
             <MdOutlineShoppingCart className={styles.cartIcon} />
           </div>
         </ul>
-
       </div>
     </nav>
   );

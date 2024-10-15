@@ -10,14 +10,3 @@
     @apply text-4xl text-blue-900 font-bold; 
 }
 
-/* .pageContainer {
-    @apply flex flex-col min-h-screen;
-  }
-  
-  .content {
-    @apply flex-grow flex justify-center items-center my-16;
-  }
-  
-  .title {
-    @apply text-4xl text-blue-900 font-bold;
-  } */

@@ -3,7 +3,6 @@ import Nav from '../component/Nav'
 import Footer from '../component/Footer'
 import styles from './page.module.css'
 
-
 const Backpack: React.FC = () => {
     return (
       <div className={styles.container}>
