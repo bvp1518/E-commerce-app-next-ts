@@ -1,29 +1,28 @@
 /* NewCollection.module.css */
 .collectionContainer {
-    @apply bg-stone-100 flex border border-gray-500 h-80 w-full;
-  }
-  
-  .collectionContent {
-    @apply flex-1 p-5;
-  }
-  
-  .collectionTitle {
-    @apply text-5xl mb-5 text-blue-800;
-  }
-  
-  .collectionDescription {
-    @apply font-bold mb-5;
-  }
-  
-  .collectionButton {
-    @apply bg-green-800 font-bold text-white py-2 px-4;
-  }
-  
-  .collectionImageContainer {
-    @apply flex-1 flex items-center justify-center;
-  }
-  
-  .collectionImage {
-    @apply h-full w-auto object-cover transition-transform duration-2000 ease-in-out;
-  }
-  
+  @apply bg-stone-100 flex flex-col md:flex-row border border-gray-500 h-auto md:h-80 w-full;
+}
+
+.collectionContent {
+  @apply flex-1 p-5 text-center md:text-left; /* Center on small screens */
+}
+
+.collectionTitle {
+  @apply text-3xl md:text-5xl mb-5 text-blue-800; /* Adjust font size for small screens */
+}
+
+.collectionDescription {
+  @apply font-bold mb-5 text-sm md:text-base; /* Adjust font size for small screens */
+}
+
+.collectionButton {
+  @apply bg-green-800 font-bold text-white py-2 px-4 mt-3 md:mt-0; /* Add margin on small screens */
+}
+
+.collectionImageContainer {
+  @apply flex-1 flex items-center justify-center mt-5 md:mt-0; /* Adjust margin for small screens */
+}
+
+.collectionImage {
+  @apply h-48 md:h-full w-auto object-cover transition-transform duration-2000 ease-in-out;
+}
